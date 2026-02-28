@@ -1,0 +1,58 @@
+{
+  "agent_name": "Content Safety Agent",
+  "agent_id": "69a2531dbac1ad931335b1b4",
+  "description": "Evaluates submitted content (URLs, app names, text snippets) for age-appropriateness and safety risks, providing a safety rating and detailed reasoning to help parents make filtering decisions",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "content_evaluated": "string",
+    "safety_rating": "string",
+    "age_suitability": "string",
+    "risk_factors": [
+      {
+        "factor": "string",
+        "severity": "string",
+        "description": "string"
+      }
+    ],
+    "detailed_reasoning": "string",
+    "recommendations": [
+      {
+        "action": "string",
+        "description": "string"
+      }
+    ],
+    "safer_alternatives": [
+      {
+        "name": "string",
+        "reason": "string"
+      }
+    ]
+  },
+  "example_response": {
+    "content_evaluated": "sample string",
+    "safety_rating": "sample string",
+    "age_suitability": "sample string",
+    "risk_factors": [
+      {
+        "factor": "sample string",
+        "severity": "sample string",
+        "description": "sample string"
+      }
+    ],
+    "detailed_reasoning": "sample string",
+    "recommendations": [
+      {
+        "action": "sample string",
+        "description": "sample string"
+      }
+    ],
+    "safer_alternatives": [
+      {
+        "name": "sample string",
+        "reason": "sample string"
+      }
+    ]
+  }
+}

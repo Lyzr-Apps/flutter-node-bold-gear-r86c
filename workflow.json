@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    { "id": "input_node", "type": "Input", "label": "Parent Input", "nodeCategory": "input" },
+    { "id": "activity_insights_agent", "type": "Agent", "label": "Activity Insights Agent", "nodeCategory": "agent" },
+    { "id": "content_safety_agent", "type": "Agent", "label": "Content Safety Agent", "nodeCategory": "agent" },
+    { "id": "digital_wellness_agent", "type": "Agent", "label": "Digital Wellness Advisor Agent", "nodeCategory": "agent" },
+    { "id": "output_node", "type": "Output", "label": "Parent Output", "nodeCategory": "end" }
+  ],
+  "edges": [
+    { "source": "input_node", "target": "activity_insights_agent" },
+    { "source": "input_node", "target": "content_safety_agent" },
+    { "source": "input_node", "target": "digital_wellness_agent" },
+    { "source": "activity_insights_agent", "target": "output_node" },
+    { "source": "content_safety_agent", "target": "output_node" },
+    { "source": "digital_wellness_agent", "target": "output_node" }
+  ]
+}

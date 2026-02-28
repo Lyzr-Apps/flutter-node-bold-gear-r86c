@@ -1,0 +1,43 @@
+{
+  "agent_name": "Digital Wellness Advisor Agent",
+  "agent_id": "69a2531e305bea55e2780a51",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "type": "object",
+    "properties": {
+      "message": { "type": "string" },
+      "key_points": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "point": { "type": "string" },
+            "details": { "type": "string" }
+          },
+          "required": ["point", "details"],
+          "additionalProperties": false
+        }
+      },
+      "actionable_tips": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "tip": { "type": "string" },
+            "implementation": { "type": "string" }
+          },
+          "required": ["tip", "implementation"],
+          "additionalProperties": false
+        }
+      },
+      "follow_up_questions": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "required": ["message", "key_points", "actionable_tips", "follow_up_questions"],
+    "additionalProperties": false
+  }
+}

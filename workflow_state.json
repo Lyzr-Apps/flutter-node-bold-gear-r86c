@@ -1,0 +1,7 @@
+{
+  "agents": [
+    { "name": "Activity Insights Agent", "agent_id": "69a2531d7feec6663e53da69", "type": "independent" },
+    { "name": "Content Safety Agent", "agent_id": "69a2531dbac1ad931335b1b4", "type": "independent" },
+    { "name": "Digital Wellness Advisor Agent", "agent_id": "69a2531e305bea55e2780a51", "type": "independent" }
+  ]
+}

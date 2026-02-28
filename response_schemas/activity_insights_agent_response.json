@@ -1,0 +1,74 @@
+{
+  "agent_name": "Activity Insights Agent",
+  "agent_id": "69a2531d7feec6663e53da69",
+  "description": "Analyzes child's digital activity data (screen time, app usage, session patterns) passed from the backend and generates behavioral insights, trend summaries, and adaptive recommendations for parents",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "summary": "string",
+    "key_patterns": [
+      {
+        "pattern": "string",
+        "severity": "string",
+        "description": "string"
+      }
+    ],
+    "trends": [
+      {
+        "metric": "string",
+        "direction": "string",
+        "details": "string"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "string",
+        "description": "string",
+        "priority": "string"
+      }
+    ],
+    "alerts": [
+      {
+        "type": "string",
+        "message": "string",
+        "severity": "string"
+      }
+    ],
+    "screen_time_score": "string",
+    "overall_assessment": "string"
+  },
+  "example_response": {
+    "summary": "sample string",
+    "key_patterns": [
+      {
+        "pattern": "sample string",
+        "severity": "sample string",
+        "description": "sample string"
+      }
+    ],
+    "trends": [
+      {
+        "metric": "sample string",
+        "direction": "sample string",
+        "details": "sample string"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "sample string",
+        "description": "sample string",
+        "priority": "sample string"
+      }
+    ],
+    "alerts": [
+      {
+        "type": "sample string",
+        "message": "sample string",
+        "severity": "sample string"
+      }
+    ],
+    "screen_time_score": "sample string",
+    "overall_assessment": "sample string"
+  }
+}

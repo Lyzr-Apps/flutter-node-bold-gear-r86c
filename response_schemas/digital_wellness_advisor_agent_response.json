@@ -1,0 +1,44 @@
+{
+  "agent_name": "Digital Wellness Advisor Agent",
+  "agent_id": "69a2531e305bea55e2780a51",
+  "description": "Conversational AI assistant that answers parent questions about digital wellness, interprets activity summaries, suggests healthy screen time strategies, and provides personalized parenting guidance",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "message": "string",
+    "key_points": [
+      {
+        "point": "string",
+        "details": "string"
+      }
+    ],
+    "actionable_tips": [
+      {
+        "tip": "string",
+        "implementation": "string"
+      }
+    ],
+    "follow_up_questions": [
+      "string"
+    ]
+  },
+  "example_response": {
+    "message": "sample string",
+    "key_points": [
+      {
+        "point": "sample string",
+        "details": "sample string"
+      }
+    ],
+    "actionable_tips": [
+      {
+        "tip": "sample string",
+        "implementation": "sample string"
+      }
+    ],
+    "follow_up_questions": [
+      "sample string"
+    ]
+  }
+}
